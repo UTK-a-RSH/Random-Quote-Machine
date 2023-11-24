@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+nav {
+background-color: black;
+color: yellow;
+padding: 25px;
+text-align: center;
+}
+
+.container{
+    background-color: lightgoldenrodyellow;
+    width: 75%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 4vmax 10vmax;
+    box-sizing: border-box;
+}
+
+.container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > h1 {
+text-align: center;
+margin: 30px;
+}
+
+input,textarea,button {
+    padding: 20px;
+    border: 1px solid lightgrey;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color:whitesmoke;
+    font-size: medium;
+}
+
+.task {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.task {
+    display:flex;
+    
+}
+
+.task > div {
+    width: 100%;
+}
+
+.task button {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.task button:hover {
+    background-color: grey;
+}
+
